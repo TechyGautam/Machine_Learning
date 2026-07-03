@@ -6,6 +6,7 @@ scaler = joblib.load("house_price_scaler.pkl")
 
 #  making UI
 st.title("🏠:blue[Predict] :red[House] :blue[Price]")
+st.divider()
 
 overall_qual = st.slider(
     "Overall Quality (1-10)",
